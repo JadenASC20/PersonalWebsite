@@ -1,0 +1,206 @@
+.quote{
+    font-size: 43px;
+}
+
+#pan_left{
+    text-align: right;
+    font-size: 50px
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image1 {
+
+  opacity: 1;
+  display: block;
+  width: 100;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-top: 100px;
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#last-image{
+  width: 500px;
+  margin-top: 50px;
+}
+/* 
+.container2 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image1 {
+
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 100px;
+
+  }
+  
+  
+  .middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container2:hover .image1 {
+    opacity: 0.3;
+  }
+  
+  .container2:hover .middle1 {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4c93af;
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+  } */
+#welcome{
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+#under-welcome{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px red;
+    width: 50%;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+#float-right{
+    float: right;
+    width: 500px;
+    height: 500px;
+    margin-top: 200px;
+    margin-right: 90px;
+}
+
+#center {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#Interests {
+  width: 1250px;
+  height: 350px;
+  margin-top: 50px;
+}
+
+#float {
+  float: right;
+  margin-right: 100px;
+  margin-top: 100px;
+  width: 500px; 
+}
+
+
+
+
+
+.nav {
+  /*position: fixed; left: 50%;*/
+  width: 100%;
+  top: 20px;
+  z-index: 9;
+  padding-left: 10px;
+}
+
+.nav a {
+  padding: 7px 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif, arial;
+  font-weight: 100;
+}
+
+.nav a.active {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.nav a:hover { background: rgba(255, 255, 255, 0.7); } 
+*/
+
+
+body {margin:25px;}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.i {
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+#navBar{
+  text-align: center;
+  padding: 7px;
+  color: white;
+  border: solid 3px black;
+  background: rgba(0, 0, 0);
+  width: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px
+}
+
+#second-link{
+  text-align: center;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+}
